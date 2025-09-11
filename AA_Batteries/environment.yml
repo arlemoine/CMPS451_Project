@@ -7,3 +7,5 @@ dependencies:
   - jupyter
   - numpy
   - matplotlib
+  - scipy
+  - statsmodels
