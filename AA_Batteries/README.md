@@ -12,6 +12,12 @@ conda env create -f environment.yml
 conda activate cmps451
 ```
 
+3. If the `environment.yml` file is ever adjusted to add new packages or remove them, you can use the following to refresh the list of packages in the environment.
+
+```bash
+conda env update --file environment.yml --prune
+```
+
 ## Help
 
 ## Starting Anaconda Navigator more readily
