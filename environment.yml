@@ -5,8 +5,12 @@ channels:
 dependencies:
   - python=3.9
   - jupyter
-  - numpy
   - matplotlib
+  - numpy
+  - pandas
+  - pygame
   - scipy
+  - seaborn
   - statsmodels
   - tifffile
+
