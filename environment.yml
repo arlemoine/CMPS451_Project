@@ -5,6 +5,7 @@ channels:
 dependencies:
   - python=3.9
   - jupyter
+  - notebook
   - matplotlib
   - numpy
   - pandas
@@ -13,4 +14,5 @@ dependencies:
   - seaborn
   - statsmodels
   - tifffile
-
+  - scikit-image
+  - scikit-learn
