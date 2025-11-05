@@ -16,7 +16,7 @@ Members: Alameen Adeku, Adam Rodi, Adriean Lemoine, Nicholas Burgo
 
 #### 2.1 Adding and Removing Libraries
 
-- If the `environment.yml` file is ever adjusted to add new packages or remove them, you can use the following to refresh the list of packages in the environment.
+- If the `environment.yml` file is ever adjusted to add new packages or remove them, you can use the following to refresh the list of packages in the environment. Note that you must navigate to the project root directory in your terminal window.
 
 ```bash
 conda env update --file environment.yml --prune
